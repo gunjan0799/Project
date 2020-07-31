@@ -72,7 +72,8 @@ if __name__ == "__main__":
             webbrowser.open("youtube.com")
         elif "open google" in query:
             webbrowser.open("google.com")
-            #yha se try nhi kie
+        elif "open Instagram" in query:
+            webbrowser.open("Instagram.com")
         elif "open stackoverflow" in query:
             webbrowser.open("stackoverflow.com")
         elif "play music " in query:
